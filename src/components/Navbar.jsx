@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 12, 2023 at 11:19:25 PM  CST
- * @ Last Modification Date: November 15, 2023 at 1:33:25 AM  CST
+ * @ Last Modification Date: November 17, 2023 at 7:58:54 AM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -31,7 +31,7 @@ const Navbar = () => {
                     }}>
                     <img src={abdallah} alt="abdallah" className="w-9 h-9 object-contain" />
                     <p className="text-white text-[18px] font-bold cursor-pointer flex">Abdou Lahi Diop &nbsp;
-                        <span className="sm:block hidden">| Software Engineer</span>
+                        <span className="md:block hidden">| Software Engineer</span>
                     </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">

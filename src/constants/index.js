@@ -22,6 +22,8 @@ import {
 } from "../assets";
 import myriad from "../assets/company/myriad.svg"
 import orange from "../assets/company/orange.png";
+import ept from "../assets/ept.png";
+import miu from "../assets/miu.jpg";
 
 export const navLinks = [
     {
@@ -31,6 +33,10 @@ export const navLinks = [
     {
         id: "work",
         title: "Work",
+    },
+    {
+        id: "education",
+        title: "Education"
     },
     {
         id: "contact",
@@ -146,16 +152,81 @@ const experiences = [
 
 const educations = [
     {
-        university: "Thies Polytechnic School",
-        diploma: "Master's Degree - Diploma in Computer and Telecommunication Design Engineering",
-        duration: "January 2017 - September 2021",
-        courses: []
+        university: "Maharishi International University",
+        diploma: "Master of Science in Computer Science",
+        duration: "January 2023 - Present",
+        iconBg: "#F3F3F3",
+        icon: miu,
+        courses: [
+            "Modern Programming Practices",
+            "Web Application Programming",
+            "Web Application Architecture",
+            "Modern Web Applications",
+            "Algorithms"
+        ]
     },
     {
         university: "Thies Polytechnic School",
         diploma: "Master's Degree - Diploma in Computer and Telecommunication Design Engineering",
-        duration: "January 2022 - Present",
-        courses:[]
+        duration: "January 2017 - September 2021",
+        iconBg: "#fff",
+        icon: ept,
+        courses: [
+            "Differential and Integral Calculus",
+            "Linear Algebra",
+            "Mechanics",
+            "Physics",
+            "Mechanical Engineering",
+            "Chemistry",
+            "Differential Equations",
+            "Probabilities",
+            "Statistics",
+            "Numerical Analysis",
+            "Vector Analysis",
+            "Operational Research",
+            "Algorithmic Complexity",
+            "Stochastic Modeling",
+            "Mathematical and Numerical Modeling",
+            "IT",
+            "Algorithm and Programming",
+            "Web Development",
+            "Database Management System",
+            "Computer Architecture and Operating Systems",
+            "Data Analysis",
+            "Object-Oriented Programming",
+            "IS Analysis and Design",
+            "Advanced Database",
+            "NoSQL Database",
+            "IT Project Management",
+            "Computer Networks",
+            "Data Transmission",
+            "Signal Processing",
+            "Embedded Systems",
+            "Stochastic Modeling",
+            "Operational Research",
+            "Algorithmic Complexity",
+            "Web Services",
+            "Image Processing and Computer Vision",
+            "JEE",
+            "Cryptography and Computer Security",
+            "Design Patterns",
+            "Advanced Databases: Distributed",
+            "Security and Database Administration",
+            "Big Data",
+            "Mobile Networks and Services",
+            "IS Governance",
+            "Advanced Software Architecture (Native Cloud Application",
+            "ERP technology (Containerization and Orchestration",
+            "Data Warehouse",
+            "Business Intelligence",
+            "Machine Learning",
+            "Deep Learning",
+            "Blockchain",
+            "Virtualization and Cloud",
+            "Computer Network Services",
+            "Research Methodology",
+            "Communication Skills - English/French"
+        ],
     },
 ]
 
