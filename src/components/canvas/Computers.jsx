@@ -1,11 +1,12 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 1:05:41 PM  CST
- * @ Last Modification Date: November 16, 2023 at 4:51:33 PM  CST
+ * @ Last Modification Date: November 16, 2023 at 8:14:01 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
 /* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 
 import { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";

@@ -1,16 +1,18 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 16, 2023 at 6:53:27 PM  CST
+ * @ Last Modification Date: November 16, 2023 at 8:01:55 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
 /* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
     return (
@@ -62,4 +64,4 @@ const About = () => {
     )
 }
 
-export default About
+export default SectionWrapper(About, "about");
