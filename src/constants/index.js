@@ -22,6 +22,7 @@ import {
     threejs,
 } from "../assets";
 import myriad from "../assets/company/myriad.svg"
+import orange from "../assets/company/orange.png";
 
 export const navLinks = [
     {
@@ -130,7 +131,7 @@ const experiences = [
     {
         title: "Software Developer",
         company_name: "Orange SN",
-        icon: tesla,
+        icon: orange,
         iconBg: "#E6DEDD",
         date: "July 2019 - September 2021",
         points: [
