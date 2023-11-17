@@ -116,16 +116,16 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
+        title: "Software Engineer/Backend",
+        company_name: "MYRIAD CONNECT",
         icon: starbucks,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "January 2022 - July 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Collaborating with the mobile operators and the project manager to validate, finalize, and estimate the workload needed.",
+            "Developing services following a specification document or a JIRA ticket.",
+            "Creating useful plugins using Erlang to reduce the development process.",
+            "Supporting deliveries using CI/CD to provide the best possible quality of service for many clients around the world.",
         ],
     },
     {
