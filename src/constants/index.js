@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    tesla,
     carrent,
     jobit,
     tripguide,
@@ -126,13 +125,13 @@ const experiences = [
             "Creating useful plugins using Erlang to reduce the development process.",
             "Supporting deliveries using CI/CD to provide the best possible quality of service for many clients around the world.",
         ],
-        technologies: ["Erlang", "Python", "SOAP", "REST API", "SQL", "JIRA", "Confluence"],
+        technologies: ["Erlang", "Python","Docker", "SOAP", "REST API", "SQL", "JIRA", "Confluence"],
     },
     {
         title: "Software Developer",
         company_name: "Orange SN",
         icon: orange,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "July 2019 - September 2021",
         points: [
             "Creating end-to-end applications workflow diagrams using UML and across functional and application architectures.",
@@ -144,6 +143,21 @@ const experiences = [
             "Express", "NodeJS", "Ionic", "Angular", "Firebase", "MySQL", "Keras", "TensorFlow", "Scikit-learn"],
     },
 ];
+
+const educations = [
+    {
+        university: "Thies Polytechnic School",
+        diploma: "Master's Degree - Diploma in Computer and Telecommunication Design Engineering",
+        duration: "January 2017 - September 2021",
+        courses: []
+    },
+    {
+        university: "Thies Polytechnic School",
+        diploma: "Master's Degree - Diploma in Computer and Telecommunication Design Engineering",
+        duration: "January 2022 - Present",
+        courses:[]
+    },
+]
 
 const testimonials = [
     {
@@ -238,4 +252,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, educations };
