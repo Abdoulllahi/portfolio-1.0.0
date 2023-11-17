@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 16, 2023 at 9:18:57 PM  CST
+ * @ Last Modification Date: November 16, 2023 at 10:59:31 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -49,6 +49,15 @@ const ExperienceCard = ({ experience }) => {
                     </li>
                 ))}
             </ul>
+            <div className="mt-3">
+                <p className="text-secondary text-[14px] font-semibold">
+                    {experience.technologies.map((tech, index) => (
+                        <span key={`technology-${index}`}>
+                            #{tech} {index < experience.technologies.length - 1 && ' '}
+                        </span>
+                    ))}
+                </p>
+            </div>
         </VerticalTimelineElement>)
 }
 

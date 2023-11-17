@@ -15,15 +15,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
     tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
 } from "../assets";
+import myriad from "../assets/company/myriad.svg"
 
 export const navLinks = [
     {
@@ -118,8 +116,8 @@ const experiences = [
     {
         title: "Software Engineer/Backend",
         company_name: "MYRIAD CONNECT",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: myriad,
+        iconBg: "#E6DEDD",
         date: "January 2022 - July 2022",
         points: [
             "Collaborating with the mobile operators and the project manager to validate, finalize, and estimate the workload needed.",
@@ -127,45 +125,22 @@ const experiences = [
             "Creating useful plugins using Erlang to reduce the development process.",
             "Supporting deliveries using CI/CD to provide the best possible quality of service for many clients around the world.",
         ],
+        technologies: ["Erlang", "Python", "SOAP", "REST API", "SQL", "JIRA", "Confluence"],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Software Developer",
+        company_name: "Orange SN",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "July 2019 - September 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Creating end-to-end applications workflow diagrams using UML and across functional and application architectures.",
+            "Developing backend as well as frontend applications using Spring Boot, Angular, and PostgreSQL.",
+            "Using Scrum methodology for the development process",
+            " Documenting and submitting reports related to projects and work.",
         ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+        technologies: ["Python", "Java", "HTML", "CSS", "JavaScript", "Spring Boot",
+            "Express", "NodeJS", "Ionic", "Angular", "Firebase", "MySQL", "Keras", "TensorFlow", "Scikit-learn"],
     },
 ];
 
