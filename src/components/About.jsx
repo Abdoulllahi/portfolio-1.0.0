@@ -1,12 +1,14 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 16, 2023 at 8:48:41 PM  CST
+ * @ Last Modification Date: November 16, 2023 at 11:16:21 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
+/* eslint-disable react-refresh/only-export-components */
+
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../style";
