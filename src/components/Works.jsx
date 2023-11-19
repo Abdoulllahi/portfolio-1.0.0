@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 19, 2023 at 10:38:20 AM  CST
- * @ Last Modification Date: November 19, 2023 at 11:43:18 AM  CST
+ * @ Last Modification Date: November 19, 2023 at 11:44:38 AM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -16,7 +16,7 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({ index, name, description, tags, image, source, source_code_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
 
     return (
         <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
