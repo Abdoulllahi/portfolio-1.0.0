@@ -8,22 +8,24 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
     carrent,
     jobit,
     tripguide,
-    threejs,
 } from "../assets";
 import myriad from "../assets/company/myriad.svg"
 import orange from "../assets/company/orange.png";
 import ept from "../assets/ept.png";
 import miu from "../assets/miu.jpg";
+import java from "../assets/tech/java.png";
+import mysql from "../assets/tech/mysql.png";
+import postgresql from "../assets/tech/postgresql.png";
+import python from "../assets/tech/python.png";
+import spring from "../assets/tech/spring.png";
 
 export const navLinks = [
     {
@@ -85,10 +87,6 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -101,16 +99,28 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "Three JS",
-        icon: threejs,
+        name: "Java",
+        icon: java,
+    },
+    {
+        name: "MySQL",
+        icon: mysql,
+    },
+    {
+        name: "PostgreSQL",
+        icon: postgresql,
+    },
+    {
+        name: "Python",
+        icon: python,
+    },
+    {
+        name: "Spring Framework",
+        icon: spring,
     },
     {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
     },
     {
         name: "docker",
