@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 19, 2023 at 4:46:28 PM  CST
+ * @ Last Modification Date: November 19, 2023 at 5:00:46 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -27,7 +27,7 @@ const FeedbackCard = ({
         variants={fadeIn("", "spring", index * 0.5, 0.75)}
         className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
     >
-        <p className='text-white font-black text-[48px]'>"</p>
+        <p className='text-white font-black text-[48px]'>&quote;</p>
 
         <div className='mt-1'>
             <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>

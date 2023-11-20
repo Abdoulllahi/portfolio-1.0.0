@@ -1,13 +1,23 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 12, 2023 at 10:07:00 PM  CST
- * @ Last Modification Date: November 17, 2023 at 12:59:31 AM  CST
+ * @ Last Modification Date: November 19, 2023 at 6:07:08 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
 
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, StarsCanvas, Tech, Works } from "./components";
+import {
+    About,
+    Contact,
+    Experience,
+    // Feedbacks,
+    Hero,
+    Navbar,
+    StarsCanvas,
+    Tech,
+    Works
+} from "./components";
 import Education from "./components/Education";
 
 const App = () => {
@@ -24,7 +34,7 @@ const App = () => {
                 <Education />
                 <Tech />
                 <Works />
-                <Feedbacks />
+                {/* <Feedbacks /> */}
                 <div className="relative z-0">
                     <Contact />
                     <StarsCanvas />

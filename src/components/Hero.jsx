@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 16, 2023 at 4:36:54 PM  CST
+ * @ Last Modification Date: November 19, 2023 at 6:11:20 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -38,7 +38,7 @@ const Hero = () => {
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center 
                     items-start p-2" >
-                        <motion.dev
+                        <motion.div
                             animate={{
                                 y: [0, 24, 0]
                             }}
