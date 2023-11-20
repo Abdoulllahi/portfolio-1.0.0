@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 19, 2023 at 6:04:27 PM  CST
+ * @ Last Modification Date: November 20, 2023 at 12:18:49 AM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -42,16 +42,16 @@ const Contact = () => {
 
         emailjs
             .send(
-                import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-                import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+                "service_zb5i92p",
+                "template_fstdyv4",
                 {
                     from_name: form.name,
-                    to_name: "JavaScript Mastery",
+                    to_name: "Abdou Lahi DIOP",
                     from_email: form.email,
-                    to_email: "sujata@jsmastery.pro",
+                    to_email: "dabdoulahi@gmail.com",
                     message: form.message,
                 },
-                import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+                "Hqcn6gligKwWqKKpP"
             )
             .then(
                 () => {
@@ -68,7 +68,7 @@ const Contact = () => {
                     setLoading(false);
                     console.error(error);
 
-                    alert("Ahh, something went wrong. Please try again.");
+                    alert("Oh, something went wrong. Please try again.");
                 }
             );
     };
