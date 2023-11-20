@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 19, 2023 at 3:32:43 PM  CST
+ * @ Last Modification Date: November 19, 2023 at 8:24:16 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -52,7 +52,7 @@ const ExperienceCard = ({ experience }) => {
             <div className="mt-4">
                 <p className=" text-[14px] font-semibold">
                     {experience.technologies.map((tech, index) => (
-                        <span key={`technology-${index}`} className={`text-${tech.color}`}>
+                        <span key={`technology-${index}`} className={tech.color}>
                             #{tech.name} {index < experience.technologies.length - 1 && ' '}
                         </span>
                     ))}

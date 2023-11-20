@@ -8,7 +8,7 @@ import {
     html,
     css,
     reactjs,
-    tailwind,
+    // tailwind,
     nodejs,
     mongodb,
     git,
@@ -19,7 +19,7 @@ import orange from "../assets/company/orange.png";
 import ept from "../assets/ept.png";
 import miu from "../assets/miu.jpg";
 import java from "../assets/tech/java.png";
-import mysql from "../assets/tech/mysql.png";
+// import mysql from "../assets/tech/mysql.png";
 import postgresql from "../assets/tech/postgresql.png";
 import python from "../assets/tech/python.png";
 import spring from "../assets/tech/spring.png";
@@ -86,10 +86,10 @@ const technologies = [
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     {
         name: "Node JS",
         icon: nodejs,
@@ -102,10 +102,10 @@ const technologies = [
         name: "Java",
         icon: java,
     },
-    {
-        name: "MySQL",
-        icon: mysql,
-    },
+    // {
+    //     name: "MySQL",
+    //     icon: mysql,
+    // },
     {
         name: "PostgreSQL",
         icon: postgresql,
@@ -142,14 +142,14 @@ const experiences = [
             "Supporting deliveries using CI/CD to provide the best possible quality of service for many clients around the world.",
         ],
         technologies: [
-            { name: "Erlang", color: "purple-500" },
-            { name: "Python", color: "blue-500" },
-            { name: "Docker", color: "teal-500" },
-            { name: "SOAP", color: "yellow-500" },
-            { name: "REST API", color: "green-500" },
-            { name: "SQL", color: "indigo-500" },
-            { name: "JIRA", color: "pink-500" },
-            { name: "Confluence", color: "red-500" },
+            { name: "Erlang", color: "blue-text-gradient" },
+            { name: "Python", color: "green-text-gradient" },
+            { name: "Docker", color: "pink-text-gradient" },
+            { name: "SOAP", color: "blue-text-gradient" },
+            { name: "REST API", color: "green-text-gradient" },
+            { name: "SQL", color: "pink-text-gradient" },
+            { name: "JIRA", color: "blue-text-gradient" },
+            { name: "Confluence", color: "green-text-gradient" },
         ],
     },
     {
@@ -165,22 +165,22 @@ const experiences = [
             " Documenting and submitting reports related to projects and work.",
         ],
         technologies: [
-            { name: "Python", color: "blue-500" },
-            { name: "Java", color: "orange-500" },
-            { name: "HTML", color: "yellow-500" },
-            { name: "CSS", color: "indigo-500" },
-            { name: "JavaScript", color: "green-500" },
-            { name: "Spring Boot", color: "teal-500" },
-            { name: "Express", color: "purple-500" },
-            { name: "NodeJS", color: "pink-500" },
-            { name: "Ionic", color: "red-500" },
-            { name: "Angular", color: "blue-500" },
-            { name: "Firebase", color: "yellow-500" },
-            { name: "Docker", color: "orange-500",},
-            { name: "MySQL", color: "green-500" },
-            { name: "Keras", color: "teal-500" },
-            { name: "TensorFlow", color: "indigo-500" },
-            { name: "Scikit-learn", color: "pink-500" },
+            { name: "Python", color: "blue-text-gradient" },
+            { name: "Java", color: "green-text-gradient" },
+            { name: "HTML", color: "pink-text-gradient" },
+            { name: "CSS", color: "blue-text-gradient" },
+            { name: "JavaScript", color: "green-text-gradient" },
+            { name: "Spring Boot", color: "pink-text-gradient" },
+            { name: "Express", color: "blue-text-gradient" },
+            { name: "NodeJS", color: "green-text-gradient" },
+            { name: "Ionic", color: "pink-text-gradient" },
+            { name: "Angular", color: "blue-text-gradient" },
+            { name: "Firebase", color: "green-text-gradient" },
+            { name: "Docker", color: "pink-text-gradient",},
+            { name: "MySQL", color: "blue-text-gradient" },
+            { name: "Keras", color: "green-text-gradient" },
+            { name: "TensorFlow", color: "pink-text-gradient" },
+            { name: "Scikit-learn", color: "blue-text-gradient" },
         ],
     },
     // Add more experiences as needed
