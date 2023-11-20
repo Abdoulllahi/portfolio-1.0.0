@@ -13,9 +13,6 @@ import {
     mongodb,
     git,
     docker,
-    carrent,
-    jobit,
-    tripguide,
 } from "../assets";
 import myriad from "../assets/company/myriad.svg"
 import orange from "../assets/company/orange.png";
@@ -26,6 +23,9 @@ import mysql from "../assets/tech/mysql.png";
 import postgresql from "../assets/tech/postgresql.png";
 import python from "../assets/tech/python.png";
 import spring from "../assets/tech/spring.png";
+import confidential from "../assets/confidential.png";
+import library from "../assets/library.png";
+import pmp from "../assets/pmp.png";
 
 export const navLinks = [
     {
@@ -141,7 +141,16 @@ const experiences = [
             "Creating useful plugins using Erlang to reduce the development process.",
             "Supporting deliveries using CI/CD to provide the best possible quality of service for many clients around the world.",
         ],
-        technologies: ["Erlang", "Python","Docker", "SOAP", "REST API", "SQL", "JIRA", "Confluence"],
+        technologies: [
+            { name: "Erlang", color: "purple-500" },
+            { name: "Python", color: "blue-500" },
+            { name: "Docker", color: "teal-500" },
+            { name: "SOAP", color: "yellow-500" },
+            { name: "REST API", color: "green-500" },
+            { name: "SQL", color: "indigo-500" },
+            { name: "JIRA", color: "pink-500" },
+            { name: "Confluence", color: "red-500" },
+        ],
     },
     {
         title: "Software Developer",
@@ -155,9 +164,26 @@ const experiences = [
             "Using Scrum methodology for the development process",
             " Documenting and submitting reports related to projects and work.",
         ],
-        technologies: ["Python", "Java", "HTML", "CSS", "JavaScript", "Spring Boot",
-            "Express", "NodeJS", "Ionic", "Angular", "Firebase", "MySQL", "Keras", "TensorFlow", "Scikit-learn"],
+        technologies: [
+            { name: "Python", color: "blue-500" },
+            { name: "Java", color: "orange-500" },
+            { name: "HTML", color: "yellow-500" },
+            { name: "CSS", color: "indigo-500" },
+            { name: "JavaScript", color: "green-500" },
+            { name: "Spring Boot", color: "teal-500" },
+            { name: "Express", color: "purple-500" },
+            { name: "NodeJS", color: "pink-500" },
+            { name: "Ionic", color: "red-500" },
+            { name: "Angular", color: "blue-500" },
+            { name: "Firebase", color: "yellow-500" },
+            { name: "Docker", color: "orange-500",},
+            { name: "MySQL", color: "green-500" },
+            { name: "Keras", color: "teal-500" },
+            { name: "TensorFlow", color: "indigo-500" },
+            { name: "Scikit-learn", color: "pink-500" },
+        ],
     },
+    // Add more experiences as needed
 ];
 
 const educations = [
@@ -269,67 +295,79 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Contextual APP",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Implementation of a mobile application for the Orange group, whose display changes according to previous interactions with the user.",
         tags: [
             {
-                name: "react",
+                name: "Ionic",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "Spring Boot",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "HTML",
                 color: "pink-text-gradient",
             },
+            {
+                name: "CSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Docker",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Kubernetes",
+                color: "blue-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: confidential,
+        source_code_link: "https://github.com/Abdoulllahi/portfolio-1.0.0",
     },
     {
-        name: "Job IT",
+        name: "Library Management",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Library management software is designed to simplify the process of organizing, cataloging and circulating books in a library. It keeps track of books, patrons and circulation history, as well as managing overdue fines, reservations and much more. With the help of this software, librarians can concentrate more on excellent customer service and less on administrative tasks.",
         tags: [
             {
-                name: "react",
+                name: "Java",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "JavaFX",
                 color: "green-text-gradient",
             },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: library,
+        source_code_link: "https://github.com/Abdoulllahi/LibraryProjectMpp.git",
     },
     {
-        name: "Trip Guide",
+        name: "Property Management Portal",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "A web-based project that facilitates efficient and cost-effective information exchange between house owners and customers. With a user-friendly interface, this system is designed to meet the needs of consumers effectively.",
         tags: [
             {
-                name: "nextjs",
+                name: "ReactJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "PostgreSQL",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Spring",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: pmp,
+        source_code_link: "https://github.com/Abdoulllahi/property-management-frontend.git",
     },
 ];
 
