@@ -1,14 +1,17 @@
 runtime: nodejs20
 
-env_variables:
-  # You can set environment variables here if needed
-  # EXAMPLE_VAR: "example-value"
-
 handlers:
+  - url: /(.*\.(js|css|map|ico|json|png|svg|jpg|jpeg|gif|woff|woff2|ttf|eot|gltf))
+    static_files: dist/\1
+    upload: dist/(.*\.(js|css|map|ico|json|png|svg|jpg|jpeg|gif|woff|woff2|ttf|eot|gltf))
+    secure: always
+    http_headers:
+      - Content-Type: text/html
+      - Content-Type: application/json
+
   - url: /.*
     static_files: dist/index.html
     upload: dist/index.html
-
-  - url: /(.*)
-    static_files: dist/\1
-    upload: dist/(.*)
+    secure: always
+    http_headers:
+      Content-Type: text/html
