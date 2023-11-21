@@ -1,16 +1,12 @@
 runtime: nodejs20
 
 handlers:
-  - url: /(.*\.(js|css|map|ico|json|png|svg|jpg|jpeg|gif|woff|woff2|ttf|eot|gltf))
+  # Serve static files with url ending with a file extension
+  - url: /(.*\..+)$
     static_files: dist/\1
-    upload: dist/(.*\.(js|css|map|ico|json|png|svg|jpg|jpeg|gif|woff|woff2|ttf|eot|gltf))
-    secure: always
-    http_headers:
-      Content-Type: text/html
+    upload: dist/.*\..+$
 
+  # Catch all handler to index.html
   - url: /.*
     static_files: dist/index.html
     upload: dist/index.html
-    secure: always
-    http_headers:
-      Content-Type: text/html
