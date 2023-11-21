@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as a parent image
-FROM node:14
+FROM node:20.9.0
 
 # Set the working directory to /app
 WORKDIR /app
@@ -16,8 +16,8 @@ COPY . /app
 # Build your Vite app
 RUN npm run build
 
-# Make port 8080 available to the world outside this container
-EXPOSE 8080
+# Make port 3000 available to the world outside this container
+EXPOSE 3000
 
 # Define environment variable
 ENV NODE_ENV production
