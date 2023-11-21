@@ -1,0 +1,14 @@
+runtime: nodejs14
+
+env_variables:
+  # You can set environment variables here if needed
+  # EXAMPLE_VAR: "example-value"
+
+handlers:
+  - url: /.*
+    static_files: dist/index.html
+    upload: dist/index.html
+
+  - url: /(.*)
+    static_files: dist/\1
+    upload: dist/(.*)
