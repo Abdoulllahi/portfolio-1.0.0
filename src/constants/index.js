@@ -26,6 +26,7 @@ import spring from "../assets/tech/spring.png";
 import confidential from "../assets/confidential.png";
 import library from "../assets/library.png";
 import pmp from "../assets/pmp.png";
+import prediction from "../assets/disease-prediction.png";
 
 export const navLinks = [
     {
@@ -294,6 +295,13 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+        name: "Disease Prediction",
+        description: "This project involves leveraging artificial intelligence (AI) and machine learning to predict various diseases based on symptoms. The main objective is to develop predictive models that can aid early diagnosis in the first instance (personalized treatment planning and proactive healthcare interventions in the future). This field encompasses a wide range of diseases, symptoms and conditions.",
+        tags: [],
+        image: prediction,
+        source_code_link: "https://github.com/Abdoulllahi/disease-prediction-with-ML",
+    },
     {
         name: "Contextual APP",
         description:
