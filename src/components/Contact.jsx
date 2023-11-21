@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 16, 2023 at 11:06:40 AM  CST
- * @ Last Modification Date: November 20, 2023 at 12:18:49 AM  CST
+ * @ Last Modification Date: November 21, 2023 at 3:03:46 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -120,7 +120,7 @@ const Contact = () => {
                             name='message'
                             value={form.message}
                             onChange={handleChange}
-                            placeholder='What you want to say?'
+                            placeholder='What do you want to say?'
                             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
                                 outline-none border-none font-medium'
                         />
