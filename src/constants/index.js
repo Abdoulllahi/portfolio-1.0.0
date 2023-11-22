@@ -177,7 +177,7 @@ const experiences = [
             { name: "Ionic", color: "pink-text-gradient" },
             { name: "Angular", color: "blue-text-gradient" },
             { name: "Firebase", color: "green-text-gradient" },
-            { name: "Docker", color: "pink-text-gradient",},
+            { name: "Docker", color: "pink-text-gradient", },
             { name: "MySQL", color: "blue-text-gradient" },
             { name: "Keras", color: "green-text-gradient" },
             { name: "TensorFlow", color: "pink-text-gradient" },
@@ -298,7 +298,36 @@ const projects = [
     {
         name: "Disease Prediction",
         description: "This project involves leveraging artificial intelligence (AI) and machine learning to predict various diseases based on symptoms. The main objective is to develop predictive models that can aid early diagnosis in the first instance (personalized treatment planning and proactive healthcare interventions in the future). This field encompasses a wide range of diseases, symptoms and conditions.",
-        tags: [],
+        tags: [{
+            name: "Python",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "Scikit-Learn",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Scipy",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "Keras",
+            color: "blue-text-gradient",
+        },
+        {
+            name: "Flask",
+            color: "green-text-gradient",
+        },
+        {
+            name: "Bootstrap",
+            color: "pink-text-gradient",
+        },
+        {
+            name: "Jinja",
+            color: "blue-text-gradient",
+        },
+
+        ],
         image: prediction,
         source_code_link: "https://github.com/Abdoulllahi/disease-prediction-with-ML",
     },
