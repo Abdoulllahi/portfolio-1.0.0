@@ -135,7 +135,7 @@ const experiences = [
         company_name: "MYRIAD CONNECT",
         icon: myriad,
         iconBg: "#E6DEDD",
-        date: "2022 - 2023",
+        date: "January 2022 - January 2023",
         points: [
             "Collaborating with the mobile operators and the project manager to validate, finalize, and estimate the workload needed.",
             "Developing services following a specification document or a JIRA ticket.",
@@ -158,7 +158,7 @@ const experiences = [
         company_name: "Orange SN",
         icon: orange,
         iconBg: "#383E56",
-        date: "2019 - 2021",
+        date: "July 2019 - September 2021",
         points: [
             "Creating end-to-end applications workflow diagrams using UML and across functional and application architectures.",
             "Developing backend as well as frontend applications using Spring Boot, Angular, and PostgreSQL.",
@@ -191,7 +191,7 @@ const educations = [
     {
         university: "Maharishi International University",
         diploma: "Master of Science in Computer Science",
-        duration: "2023 - Present",
+        duration: "January 2023 - Present",
         iconBg: "#F3F3F3",
         icon: miu,
         courses: [
@@ -205,7 +205,7 @@ const educations = [
     {
         university: "Thies Polytechnic School",
         diploma: "Master's Degree - Diploma in Computer and Telecommunication Design Engineering",
-        duration: "2017 - 2021",
+        duration: "January 2017 - September 2021",
         iconBg: "#fff",
         icon: ept,
         courses: [
