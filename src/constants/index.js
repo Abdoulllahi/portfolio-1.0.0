@@ -387,7 +387,17 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "RUBJUECDNCS7",
         credential_url: "https://www.coursera.org/account/accomplishments/specialization/certificate/RUBJUECDNCS7",
+        type: "specialization",
     },
+    {
+        name: "Core Java Specialization",
+        issuing_organization: "Coursera",
+        issue_date: "November 2023",
+        expiration_date: "This certification does not expire",
+        credential_id: "8BHWYH4TKMMR",
+        credential_url: "https://www.coursera.org/account/accomplishments/specialization/certificate/8BHWYH4TKMMR",
+        type: "specialization",
+    },      
     {
         title: "Machine Learning",
         provider: "Stanford University",
@@ -395,6 +405,43 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "KLNTT8QS2MH5",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/KLNTT8QS2MH5",
+        type: "certification",
+    },
+    {
+        title: "Introduction to Object-Oriented Programming with Java",
+        provider: "Coursera",
+        issue_date: "November 2023",
+        expiration_date: "This certification does not expire",
+        credential_id: "8ZMFC4UEUUE4",
+        credential_url: "https://www.coursera.org/account/accomplishments/certificate/8ZMFC4UEUUE4",
+        type: "certification",
+    },
+    {
+        title: "Object-Oriented Hierarchies in Java",
+        provider: "Coursera",
+        issue_date: "November 2023",
+        expiration_date: "This certification does not expire",
+        credential_id: "XA2KKSJDM4DJ",
+        credential_url: "https://www.coursera.org/account/accomplishments/certificate/XA2KKSJDM4DJ",
+        type: "certification",
+    },
+    {
+        title: "Introduction to Java",
+        provider: "Coursera",
+        issue_date: "November 2023",
+        expiration_date: "This certification does not expire",
+        credential_id: "D9592WC6PGVL",
+        credential_url: "https://www.coursera.org/account/accomplishments/certificate/D9592WC6PGVL",
+        type: "certification",
+    },
+    {
+        title: "Introduction to Java",
+        provider: "Coursera",
+        issue_date: "November 2023",
+        expiration_date: "This certification does not expire",
+        credential_id: "D9592WC6PGVL",
+        credential_url: "https://www.coursera.org/account/accomplishments/certificate/D9592WC6PGVL",
+        type: "certification",
     },
     {
         title: "Version Control",
@@ -403,6 +450,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "NG5V83TD875B",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/NG5V83TD875B",
+        type: "certification",
     },
     {
         title: "Advanced React",
@@ -411,6 +459,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "5GCBFDXNVZ6C",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/5GCBFDXNVZ6C",
+        type: "certification",
     },
     {
         title: "Spring - Ecosystem and Core",
@@ -419,6 +468,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "7F68QNEGLP49",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/7F68QNEGLP49",
+        type: "certification",
     },
     {
         title: "Supervised Machine Learning: Regression and Classification",
@@ -427,6 +477,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "9LNP7BPYDUM7",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/9LNP7BPYDUM7",
+        type: "certification",
     },
     {
         title: "React Basics",
@@ -435,6 +486,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "AL7XLJ4JJYJ3",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/AL7XLJ4JJYJ3",
+        type: "certification",
     },
     {
         title: "Programming with JavaScript",
@@ -443,6 +495,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "NB8ZZ4WSQTWX",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/NB8ZZ4WSQTWX",
+        type: "certification",
     },
     {
         title: "HTML and CSS in depth",
@@ -451,6 +504,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "BPH4A64NSPEK",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/BPH4A64NSPEK",
+        type: "certification",
     },
     {
         title: "Architecting with Google Kubernetes Engine: Production",
@@ -459,6 +513,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "XKSY2BVND22J",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/XKSY2BVND22J",
+        type: "certification",
     },
     {
         title: "Introduction to Front-End Development",
@@ -467,6 +522,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "GK5C8HGVV3RA",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/GK5C8HGVV3RA",
+        type: "certification",
     },
 
     {
@@ -476,6 +532,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "H5PYFX6DBQKV",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/H5PYFX6DBQKV",
+        type: "certification",
     },
     {
         title: "Foundations of Project Management",
@@ -484,6 +541,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "VU8UM928Z46Z",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/VU8UM928Z46Z",
+        type: "certification",
     },
     {
         title: "Using Python to Access Web Data",
@@ -492,6 +550,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "Y642RFLFF3EV",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/Y642RFLFF3EV",
+        type: "certification",
     },
     {
         title: "Capstone: Retrieving, Processing, and Visualizing Data with Python",
@@ -500,6 +559,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "9BWCWBQWQP97",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/9BWCWBQWQP97",
+        type: "certification",
     },
     {
         title: "Python Basics",
@@ -508,6 +568,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "QZNZZSYTMBSS",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/QZNZZSYTMBSS",
+        type: "certification",
     },
     {
         title: "Writing, Running, and Fixing Code in C",
@@ -516,6 +577,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "2M4B9PHM2VTV",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/2M4B9PHM2VTV",
+        type: "certification",
     },
     {
         title: "Using Databases with Python",
@@ -524,6 +586,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "NUWSGMEE9NA2",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/NUWSGMEE9NA2",
+        type: "certification",
     },
     {
         title: "Python Data Structures",
@@ -532,6 +595,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "6BY537KQEF5K",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/6BY537KQEF5K",
+        type: "certification",
     },
     {
         title: "Architecting with Google Kubernetes Engine: Workloads",
@@ -540,6 +604,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "8W42Q9GX3VS8",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/8W42Q9GX3VS8",
+        type: "certification",
     },
     {
         title: "Architecting with Google Kubernetes Engine: Foundations",
@@ -548,6 +613,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "6H6X8TBQRPGV",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/6H6X8TBQRPGV",
+        type: "certification",
     },
     {
         title: "Introduction to Big Data",
@@ -556,6 +622,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "AATGGV9LWUWA",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/AATGGV9LWUWA",
+        type: "certification",
     },
     {
         title: "Sequence Models",
@@ -564,6 +631,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "X4RZYNLTY3NB",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/X4RZYNLTY3NB",
+        type: "certification",
     },
     {
         title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
@@ -572,6 +640,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "F7XHS7LVKLRA",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/F7XHS7LVKLRA",
+        type: "certification",
     },
     {
         title: "Neural Networks and Deep Learning",
@@ -580,6 +649,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "4UACC2X8TTWW",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/4UACC2X8TTWW",
+        type: "certification",
     },
     {
         title: "Server-side Development with NodeJS, Express and MongoDB",
@@ -588,6 +658,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "Z7AMGE8H927J",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/Z7AMGE8H927J",
+        type: "certification",
     },
     {
         title: "Cryptography and Information Theory",
@@ -596,6 +667,7 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "4Y8HT8A8TZPV",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/4Y8HT8A8TZPV",
+        type: "certification",
     },
     {
         title: "Programming for Everybody (Getting Started with Python)",
@@ -604,10 +676,17 @@ const certifications = [
         expiration_date: "This certification does not expire",
         credential_id: "CTVMPD4TZ555",
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/CTVMPD4TZ555",
+        type: "certification",
     },
-    // Add more certifications as needed
-
-
+    {
+        title: "The Web Developer Bootcamp 2023",
+        provider: "Udemy",
+        issue_date: "February 2021",
+        expiration_date: "This certification does not expire",
+        credential_id: "UC-496b3d93-cb6c-4fa9-a7e9-0c620e2944c7",
+        credential_url: "https://www.udemy.com/certificate/UC-496b3d93-cb6c-4fa9-a7e9-0c620e2944c7/",
+        type: "certification"
+    },
 ];
 
 
