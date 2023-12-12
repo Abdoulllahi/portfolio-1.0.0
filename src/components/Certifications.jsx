@@ -3,7 +3,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: December 09, 2023 at 12:02:43 AM  CST
- * @ Last Modification Date: December 12, 2023 at 12:10:13 AM  CST
+ * @ Last Modification Date: December 12, 2023 at 1:39:10 AM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -29,8 +29,8 @@ const CertificationCard = ({
     return (
 
         <div
-            class="max-w-sm w-full bg-white border border-gray-200 rounded-lg shadow hover:bg-tertiary dark:bg-gray-800
-                dark:border-gray-700">
+            class="max-w-sm w-full bg-white border border-gray-200 rounded-lg shadow hover:bg-tertiary
+                    dark:bg-gray-800 dark:border-gray-700">
             <a href={credential_url}>
                 <img class="rounded-t-lg" src={image} alt="" />
             </a>
