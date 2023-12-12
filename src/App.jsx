@@ -1,7 +1,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: November 12, 2023 at 10:07:00 PM  CST
- * @ Last Modification Date: November 19, 2023 at 6:07:08 PM  CST
+ * @ Last Modification Date: December 09, 2023 at 9:11:23 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -12,15 +12,23 @@ import {
     Contact,
     Experience,
     // Feedbacks,
+    // Certifications,
     Hero,
     Navbar,
     StarsCanvas,
     Tech,
     Works
 } from "./components";
+// import { useState } from "react";
 import Education from "./components/Education";
+import Certifications from "./components/Certifications";
 
 const App = () => {
+    // const [currentPage, setCurrentPage] = useState(1);
+
+    // const handlePageChange = (newPage) => {
+    //     setCurrentPage(newPage);
+    // };
 
     return (
         <BrowserRouter>
@@ -35,6 +43,13 @@ const App = () => {
                 <Tech />
                 <Works />
                 {/* <Feedbacks /> */}
+                <div className="relative z-0">
+                    <Certifications />
+                </div>
+                {/* <Certification
+                    currentPage={currentPage}
+                    onPageChange={(newPage) => handlePageChange(newPage)}
+                /> */}
                 <div className="relative z-0">
                     <Contact />
                     <StarsCanvas />
