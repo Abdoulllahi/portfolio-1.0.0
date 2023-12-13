@@ -3,7 +3,7 @@
 /**
  * @ Author: Abdou Lahi DIOP - Copyright © 2023 Abdallah
  * @ Creation Date: December 09, 2023 at 12:02:43 AM  CST
- * @ Last Modification Date: December 12, 2023 at 1:39:10 AM  CST
+ * @ Last Modification Date: December 12, 2023 at 6:07:11 PM  CST
  * @ Modified by: Abdou Lahi DIOP
  * @ Description:
  */
@@ -29,18 +29,18 @@ const CertificationCard = ({
     return (
 
         <div
-            class="max-w-sm w-full bg-white border border-gray-200 rounded-lg shadow hover:bg-tertiary
+            className="max-w-sm w-full bg-white border border-gray-200 rounded-lg shadow hover:bg-tertiary
                     dark:bg-gray-800 dark:border-gray-700">
             <a href={credential_url}>
-                <img class="rounded-t-lg" src={image} alt="" />
+                <img className="rounded-t-lg" src={image} alt="" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                    <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white">
                         {title}
                     </h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                     {description}
                 </p>
             </div>
