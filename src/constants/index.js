@@ -16,6 +16,7 @@ import {
 } from "../assets";
 import myriad from "../assets/company/myriad.svg"
 import orange from "../assets/company/orange.png";
+import xbit from "../assets/company/xbit.png";
 import ept from "../assets/ept.png";
 import miu from "../assets/miu.jpg";
 import java from "../assets/tech/java.png";
@@ -169,11 +170,34 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Software Engineer",
+        company_name: "Xbit SARL",
+        icon: xbit,
+        iconBg: "#383E56",
+        date: "August 2022 - February 2023",
+        points: [
+            "Developed dynamic web and e-commerce platforms using technologies such as React, Node.js, and MongoDB to ensure optimal user experiences.",
+            "Implemented engaging digital signage solutions with technologies like Scala to enhance visual communication and brand presence.",
+            "Engineered mobile data applications for Android and iOS platforms, employing Flutter to deliver responsive and user-friendly experiences.",
+            "Integrated IT solutions, facilitating seamless collaboration across diverse systems and platforms, utilizing technologies such as AWS, RESTful APIs, and Docker."
+        ],
+        technologies: [
+            { name: "React.js", color: "blue-text-gradient" },
+            { name: "Node.js", color: "green-text-gradient" },
+            { name: "MongoDB", color: "pink-text-gradient" },
+            { name: "Scala", color: "blue-text-gradient" },
+            { name: "Flutter", color: "green-text-gradient" },
+            { name: "AWS", color: "pink-text-gradient" },
+            { name: "RESTful APIs", color: "blue-text-gradient" },
+            { name: "Docker", color: "green-text-gradient" },
+        ]
+    },
+    {
         title: "Software Engineer/Backend",
         company_name: "MYRIAD CONNECT",
         icon: myriad,
         iconBg: "#E6DEDD",
-        date: "January 2022 - January 2023",
+        date: "January 2022 - July 2022",
         points: [
             "Collaborating with the mobile operators and the project manager to validate, finalize, and estimate the workload needed.",
             "Developing services following a specification document or a JIRA ticket.",
@@ -449,7 +473,7 @@ const projects = [
 const certifications = [
     {
         title: "KaggleX BIPOC Mentorship Program",
-        description:"",
+        description: "",
         issuing_organization: "Kaggle",
         provider: "KaggleX",
         issue_date: "November 2023",
@@ -461,7 +485,7 @@ const certifications = [
     },
     {
         title: "Huawei ICT competition Senegal 2020",
-        description:"",
+        description: "",
         issuing_organization: "Huawei",
         provider: "Huawei",
         issue_date: "ocotber 2020",
@@ -473,7 +497,7 @@ const certifications = [
     },
     {
         title: "Huawei Seeds for the Future program",
-        description:"",
+        description: "",
         issuing_organization: "Huawei",
         provider: "Huawei",
         issue_date: "ocotber 2020",
@@ -485,7 +509,7 @@ const certifications = [
     },
     {
         title: "HCIA-AI",
-        description:"",
+        description: "",
         issuing_organization: "Huawei",
         provider: "Huawei",
         issue_date: "January 2020",
@@ -497,7 +521,7 @@ const certifications = [
     },
     {
         title: "Python for Everybody Specialization",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "May 2022",
@@ -509,7 +533,7 @@ const certifications = [
     },
     {
         title: "Core Java Specialization",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "November 2023",
@@ -518,10 +542,10 @@ const certifications = [
         credential_url: "https://www.coursera.org/account/accomplishments/specialization/certificate/8BHWYH4TKMMR",
         type: "specialization",
         image: core_java,
-    },      
+    },
     {
         title: "Machine Learning",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Stanford University",
         issue_date: "July 2022",
@@ -533,7 +557,7 @@ const certifications = [
     },
     {
         title: "Introduction to Object-Oriented Programming with Java",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "November 2023",
@@ -545,7 +569,7 @@ const certifications = [
     },
     {
         title: "Object-Oriented Hierarchies in Java",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "November 2023",
@@ -557,7 +581,7 @@ const certifications = [
     },
     {
         title: "Version Control",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "September 2023",
@@ -569,7 +593,7 @@ const certifications = [
     },
     {
         title: "Introduction to Java",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "November 2023",
@@ -581,7 +605,7 @@ const certifications = [
     },
     {
         title: "Advanced React",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "November 2023",
@@ -593,7 +617,7 @@ const certifications = [
     },
     {
         title: "Spring - Ecosystem and Core",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "September 2023",
@@ -605,7 +629,7 @@ const certifications = [
     },
     {
         title: "React Basics",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "November 2023",
@@ -617,7 +641,7 @@ const certifications = [
     },
     {
         title: "Programming with JavaScript",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "September 2023",
@@ -629,7 +653,7 @@ const certifications = [
     },
     {
         title: "HTML and CSS in depth",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "September 2023",
@@ -641,7 +665,7 @@ const certifications = [
     },
     {
         title: "Java Class Library",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "LearnQuest",
         issue_date: "November 2023",
@@ -650,10 +674,10 @@ const certifications = [
         credential_url: "https://www.coursera.org/account/accomplishments/certificate/R43UZSQ76T89",
         type: "certification",
         image: java_class_library,
-    },  
+    },
     {
         title: "Using Python to Access Web Data",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "April 2022",
@@ -665,7 +689,7 @@ const certifications = [
     },
     {
         title: "Capstone: Retrieving, Processing, and Visualizing Data with Python",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "May 2022",
@@ -677,7 +701,7 @@ const certifications = [
     },
     {
         title: "Python Basics",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "June 2022",
@@ -689,7 +713,7 @@ const certifications = [
     },
     {
         title: "Supervised Machine Learning: Regression and Classification",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "DeepLearning.AI, Stanford University",
         issue_date: "July 2022",
@@ -701,7 +725,7 @@ const certifications = [
     },
     {
         title: "Using Databases with Python",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "May 2022",
@@ -713,7 +737,7 @@ const certifications = [
     },
     {
         title: "Architecting with Google Kubernetes Engine: Foundations",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Google Cloud",
         issue_date: "July 2022",
@@ -725,7 +749,7 @@ const certifications = [
     },
     {
         title: "Architecting with Google Kubernetes Engine: Workloads",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Google Cloud",
         issue_date: "July 2022",
@@ -737,7 +761,7 @@ const certifications = [
     },
     {
         title: "Architecting with Google Kubernetes Engine: Production",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Google Cloud",
         issue_date: "July 2022",
@@ -749,7 +773,7 @@ const certifications = [
     },
     {
         title: "Introduction to Front-End Development",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Meta",
         issue_date: "September 2023",
@@ -762,7 +786,7 @@ const certifications = [
 
     {
         title: "Programming Fundamentals",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Duke University",
         issue_date: "November 2020",
@@ -774,7 +798,7 @@ const certifications = [
     },
     {
         title: "Introduction to Big Data",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of California San Diego",
         issue_date: "March 2020",
@@ -786,7 +810,7 @@ const certifications = [
     },
     {
         title: "Sequence Models",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "DeepLearning.AI",
         issue_date: "July 2020",
@@ -798,7 +822,7 @@ const certifications = [
     },
     {
         title: "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "DeepLearning.AI",
         issue_date: "May 2020",
@@ -810,7 +834,7 @@ const certifications = [
     },
     {
         title: "Foundations of Project Management",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Google",
         issue_date: "January 2022",
@@ -822,7 +846,7 @@ const certifications = [
     },
     {
         title: "Writing, Running, and Fixing Code in C",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "Duke University",
         issue_date: "November 2020",
@@ -834,7 +858,7 @@ const certifications = [
     },
     {
         title: "Neural Networks and Deep Learning",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "DeepLearning.AI",
         issue_date: "July 2020",
@@ -846,7 +870,7 @@ const certifications = [
     },
     {
         title: "Server-side Development with NodeJS, Express and MongoDB",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "The Hong Kong University of Science and Technology",
         issue_date: "June 2020",
@@ -858,7 +882,7 @@ const certifications = [
     },
     {
         title: "Cryptography and Information Theory",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Colorado System",
         issue_date: "November 2019",
@@ -870,7 +894,7 @@ const certifications = [
     },
     {
         title: "Python Data Structures",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "August 2020",
@@ -882,7 +906,7 @@ const certifications = [
     },
     {
         title: "Programming for Everybody (Getting Started with Python)",
-        description:"",
+        description: "",
         issuing_organization: "Coursera",
         provider: "University of Michigan",
         issue_date: "November 2019",
@@ -894,7 +918,7 @@ const certifications = [
     },
     {
         title: "The Web Developer Bootcamp 2023",
-        description:"",
+        description: "",
         issuing_organization: "Udemy",
         provider: "Colt Steel",
         issue_date: "February 2021",
