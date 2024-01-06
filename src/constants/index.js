@@ -169,35 +169,35 @@ const technologies = [
 ];
 
 const experiences = [
-    {
-        title: "Software Engineer",
-        company_name: "Xbit SARL",
-        icon: xbit,
-        iconBg: "#383E56",
-        date: "August 2022 - February 2023",
-        points: [
-            "Developed dynamic web and e-commerce platforms using technologies such as React, Node.js, and MongoDB to ensure optimal user experiences.",
-            "Implemented engaging digital signage solutions with technologies like Scala to enhance visual communication and brand presence.",
-            "Engineered mobile data applications for Android and iOS platforms, employing Flutter to deliver responsive and user-friendly experiences.",
-            "Integrated IT solutions, facilitating seamless collaboration across diverse systems and platforms, utilizing technologies such as AWS, RESTful APIs, and Docker."
-        ],
-        technologies: [
-            { name: "React.js", color: "blue-text-gradient" },
-            { name: "Node.js", color: "green-text-gradient" },
-            { name: "MongoDB", color: "pink-text-gradient" },
-            { name: "Scala", color: "blue-text-gradient" },
-            { name: "Flutter", color: "green-text-gradient" },
-            { name: "AWS", color: "pink-text-gradient" },
-            { name: "RESTful APIs", color: "blue-text-gradient" },
-            { name: "Docker", color: "green-text-gradient" },
-        ]
-    },
+    // {
+        // title: "Software Engineer",
+        // company_name: "Xbit SARL",
+        // icon: xbit,
+        // iconBg: "#383E56",
+        // date: "August 2022 - February 2023",
+        // points: [
+        //     "Developed dynamic web and e-commerce platforms using technologies such as React, Node.js, and MongoDB to ensure optimal user experiences.",
+        //     "Implemented engaging digital signage solutions with technologies like Scala to enhance visual communication and brand presence.",
+        //     "Engineered mobile data applications for Android and iOS platforms, employing Flutter to deliver responsive and user-friendly experiences.",
+        //     "Integrated IT solutions, facilitating seamless collaboration across diverse systems and platforms, utilizing technologies such as AWS, RESTful APIs, and Docker."
+        // ],
+        // technologies: [
+        //     { name: "React.js", color: "blue-text-gradient" },
+        //     { name: "Node.js", color: "green-text-gradient" },
+        //     { name: "MongoDB", color: "pink-text-gradient" },
+        //     { name: "Scala", color: "blue-text-gradient" },
+        //     { name: "Flutter", color: "green-text-gradient" },
+        //     { name: "AWS", color: "pink-text-gradient" },
+        //     { name: "RESTful APIs", color: "blue-text-gradient" },
+        //     { name: "Docker", color: "green-text-gradient" },
+        // ]
+    // },
     {
         title: "Software Engineer/Backend",
         company_name: "MYRIAD CONNECT",
         icon: myriad,
         iconBg: "#E6DEDD",
-        date: "January 2022 - July 2022",
+        date: "January 2022 - January 2023",
         points: [
             "Collaborating with the mobile operators and the project manager to validate, finalize, and estimate the workload needed.",
             "Developing services following a specification document or a JIRA ticket.",
