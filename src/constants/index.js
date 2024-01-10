@@ -66,6 +66,7 @@ import huawei_ict from "../assets/certification/Huawei-cloud-track.png";
 import hcai_ai from "../assets/certification/hcai-ai.png";
 import huawei_seeds from "../assets/certification/Huawei-seeds.png"
 import kaggleX from "../assets/certification/kaggleX.png";
+import ood from "../assets/certification/ood.png";
 
 export const navLinks = [
     {
@@ -170,30 +171,30 @@ const technologies = [
 
 const experiences = [
     // {
-        // title: "Software Engineer",
-        // company_name: "Xbit SARL",
-        // icon: xbit,
-        // iconBg: "#383E56",
-        // date: "August 2022 - February 2023",
-        // points: [
-        //     "Developed dynamic web and e-commerce platforms using technologies such as React, Node.js, and MongoDB to ensure optimal user experiences.",
-        //     "Implemented engaging digital signage solutions with technologies like Scala to enhance visual communication and brand presence.",
-        //     "Engineered mobile data applications for Android and iOS platforms, employing Flutter to deliver responsive and user-friendly experiences.",
-        //     "Integrated IT solutions, facilitating seamless collaboration across diverse systems and platforms, utilizing technologies such as AWS, RESTful APIs, and Docker."
-        // ],
-        // technologies: [
-        //     { name: "React.js", color: "blue-text-gradient" },
-        //     { name: "Node.js", color: "green-text-gradient" },
-        //     { name: "MongoDB", color: "pink-text-gradient" },
-        //     { name: "Scala", color: "blue-text-gradient" },
-        //     { name: "Flutter", color: "green-text-gradient" },
-        //     { name: "AWS", color: "pink-text-gradient" },
-        //     { name: "RESTful APIs", color: "blue-text-gradient" },
-        //     { name: "Docker", color: "green-text-gradient" },
-        // ]
+    // title: "Software Engineer",
+    // company_name: "Xbit SARL",
+    // icon: xbit,
+    // iconBg: "#383E56",
+    // date: "August 2022 - February 2023",
+    // points: [
+    //     "Developed dynamic web and e-commerce platforms using technologies such as React, Node.js, and MongoDB to ensure optimal user experiences.",
+    //     "Implemented engaging digital signage solutions with technologies like Scala to enhance visual communication and brand presence.",
+    //     "Engineered mobile data applications for Android and iOS platforms, employing Flutter to deliver responsive and user-friendly experiences.",
+    //     "Integrated IT solutions, facilitating seamless collaboration across diverse systems and platforms, utilizing technologies such as AWS, RESTful APIs, and Docker."
+    // ],
+    // technologies: [
+    //     { name: "React.js", color: "blue-text-gradient" },
+    //     { name: "Node.js", color: "green-text-gradient" },
+    //     { name: "MongoDB", color: "pink-text-gradient" },
+    //     { name: "Scala", color: "blue-text-gradient" },
+    //     { name: "Flutter", color: "green-text-gradient" },
+    //     { name: "AWS", color: "pink-text-gradient" },
+    //     { name: "RESTful APIs", color: "blue-text-gradient" },
+    //     { name: "Docker", color: "green-text-gradient" },
+    // ]
     // },
     {
-        title: "Software Engineer/Backend",
+        title: "Software Engineer",
         company_name: "MYRIAD CONNECT",
         icon: myriad,
         iconBg: "#E6DEDD",
@@ -246,7 +247,6 @@ const experiences = [
             { name: "Scikit-learn", color: "blue-text-gradient" },
         ],
     },
-    // Add more experiences as needed
 ];
 
 const educations = [
@@ -518,6 +518,18 @@ const certifications = [
         credential_url: "https://drive.google.com/file/d/1_emmSuH7u4WwN_EGqqqWPJjNEKhXdmnC/view",
         type: "certification",
         image: hcai_ai,
+    },
+    {
+        title: "Object-Oriented Design",
+        description: "",
+        issuing_organization: "Coursera",
+        provider: "University of Alberta",
+        issue_date: "January 2024",
+        expiration_date: "This certification does not expire",
+        credential_id: "LBYBQJMKB65Q",
+        credential_url: "https://www.coursera.org/account/accomplishments/records/LBYBQJMKB65Q",
+        type: "certification",
+        image: ood,
     },
     {
         title: "Python for Everybody Specialization",
