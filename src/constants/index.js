@@ -221,7 +221,7 @@ const experiences = [
         company_name: "Orange SN",
         icon: orange,
         iconBg: "#383E56",
-        date: "July 2019 - January 2022",
+        date: "July 2018 - January 2022",
         points: [
             "Creating end-to-end applications workflow diagrams using UML and across functional and application architectures.",
             "Developing backend as well as frontend applications using Spring Boot, Angular, and PostgreSQL.",
