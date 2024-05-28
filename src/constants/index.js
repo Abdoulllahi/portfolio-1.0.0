@@ -213,7 +213,8 @@ const experiences = [
             { name: "REST API", color: "green-text-gradient" },
             { name: "SQL", color: "pink-text-gradient" },
             { name: "JIRA", color: "blue-text-gradient" },
-            { name: "Confluence", color: "green-text-gradient" },
+            { name: "C", color: "green-text-gradient" },
+            { name: "NodeJS", color: "pink-text-gradient" },
         ],
     },
     {
@@ -221,7 +222,7 @@ const experiences = [
         company_name: "Orange SN",
         icon: orange,
         iconBg: "#383E56",
-        date: "July 2018 - January 2022",
+        date: "July 2017 - January 2022",
         points: [
             "Creating end-to-end applications workflow diagrams using UML and across functional and application architectures.",
             "Developing backend as well as frontend applications using Spring Boot, Angular, and PostgreSQL.",
